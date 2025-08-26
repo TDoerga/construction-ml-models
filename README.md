@@ -33,7 +33,7 @@ This repository contains deployable .jar files for machine learning models from 
 - Windows PowerShell or terminal.
 
 ## Setup and Usage
-1. Download the repo as ZIP or clone it (git clone https://github.com/yourusername/construction-ml-models.git).
+1. Download the repo as ZIP or clone it (git clone https://github.com/TDoerga/construction-ml-models.git).
 2. Edit input.csv with your data (e.g., PFS = "Public", CYE = 20).
 3. Open PowerShell, navigate to the folder (cd path/to/repo).
 4. Run: java -jar model-01-cost.jar -input input.csv -output output.csv
@@ -43,6 +43,6 @@ This repository contains deployable .jar files for machine learning models from 
 ## Troubleshooting
 - Java not found? Add to PATH or run with full path (e.g., C:\Program Files\Java\jre\bin\java -jar ...).
 - Errors? Ensure CSV headers match model features (list in template notes).
-- Contact: For questions, email [your.email@utt.edu.tt].
+- Contact: For questions, email [tarun.doerga@utt.edu.tt].
 
 Note: Models are approximations; test with your data for accuracy.
